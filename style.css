@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 77, 78)
+}
+
+a:hover {
+    color: rgb(0, 150, 153)
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 0.1em;
+    background: url(https://pixabay.com/get/57e3d6434857ae14f6da8c7dda35367b1c39dde350587241_1280.jpg) bottom no-repeat;
+    background-size: cover
+}
+
+.header div {
+    margin: 0.1em;
+    text-align: center;
+}
+
+.header div a {
+    text-decoration: none;
+}
+
+
+
+.logo img {
+    height: 2.5em;
+}
+
+.links {
+    background-color: rgba(0, 217, 221, 0.349);
+    align-self: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 0.7em;
+}
+
+.links a {
+    margin: 0.2em 1em;
+}
+
+.path {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.news {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.news article:nth-child(2n) {
+    background-color: rgb(235, 250, 255);        
+}
+
+.news article:nth-child(1) h3::after, 
+.news article:nth-child(2) h3::after {
+    content: "NEW";
+    color: red;
+    font-size: 0.6em;
+    vertical-align: top;
+}
+
+
+article {
+    padding: 1em;
+}
+
+
+
+
+.article-meta {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article-meta div {
+    margin-right: 0.5em;
+}
+
+article img {
+    width: 100%;
+}
+
+article a {
+    color: rgb(0, 100, 102);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.copyright {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1em;
+}
