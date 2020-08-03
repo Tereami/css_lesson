@@ -25,8 +25,8 @@ h3 {
     align-items: center;
     font-size: 3rem;
     padding: 0.1em;
-    background: url(https://pixabay.com/get/57e3d6434857ae14f6da8c7dda35367b1c39dde350587241_1280.jpg) bottom no-repeat;
-    background-size: cover
+    background-image: url("media/ocean.jpg");
+    background-size: cover;
 }
 
 .header div {
